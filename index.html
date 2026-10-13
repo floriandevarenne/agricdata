@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AgricData · Données sur la filière poules pondeuses en France</title>
+  <meta name="description" content="AgricData analyse les données publiques de la filière œufs et poules pondeuses en France : cheptel, production, prix, alimentation et céréales.">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap header-row">
+      <a class="logo" href="index.html"><span class="logo-mark">●</span> AgricData</a>
+      <nav>
+        <a href="#analyses">Analyses</a>
+        <a href="#sources">Sources</a>
+        <a href="#methode">Méthode</a>
+        <a href="#apropos">À propos</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="wrap">
+        <p class="eyebrow">Filière œufs · France</p>
+        <h1>Comprendre la filière poules pondeuses par les données.</h1>
+        <p class="lead">
+          Cheptel, modes d'élevage, production d'œufs, prix et coût de
+          l'alimentation : AgricData rassemble des données publiques françaises
+          et les analyse avec Python, SQL et Power BI.
+        </p>
+        <a class="button" href="#analyses">Voir les analyses</a>
+      </div>
+    </section>
+
+    <section id="analyses" class="wrap section">
+      <h2>Analyses</h2>
+      <p class="section-intro">Les premières analyses sont en préparation. Chaque fiche précisera ses sources, sa méthode et ses limites.</p>
+      <div class="cards">
+        <article class="card">
+          <span class="tag">À venir</span>
+          <h3>Cheptel et modes d'élevage</h3>
+          <p>Évolution du nombre de poules pondeuses en France et part des élevages en cage, au sol, plein air et bio.</p>
+        </article>
+        <article class="card">
+          <span class="tag">À venir</span>
+          <h3>Production et consommation d'œufs</h3>
+          <p>Volumes produits, répartition régionale et consommation des ménages.</p>
+        </article>
+        <article class="card">
+          <span class="tag">À venir</span>
+          <h3>Alimentation et céréales</h3>
+          <p>Prix du blé et du maïs, coût de l'aliment pondeuse et lien avec le prix de l'œuf.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="sources" class="section alt">
+      <div class="wrap">
+        <h2>Sources de données envisagées</h2>
+        <ul class="sources">
+          <li><strong>Agreste</strong> (service statistique du ministère de l'Agriculture) : cheptels, production, statistiques annuelles.</li>
+          <li><strong>FranceAgriMer</strong> : marchés des céréales et des œufs, prix.</li>
+          <li><strong>ITAVI</strong> : références techniques et économiques des filières avicoles.</li>
+          <li><strong>Eurostat</strong> : comparaisons européennes.</li>
+          <li><strong>data.gouv.fr</strong> : jeux de données ouverts complémentaires.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="methode" class="wrap section">
+      <h2>Méthode</h2>
+      <ol class="steps">
+        <li><span>1</span><div><h3>Collecte</h3><p>Téléchargement des données brutes, sans modification, avec la date et l'URL d'origine.</p></div></li>
+        <li><span>2</span><div><h3>Nettoyage et modélisation</h3><p>Scripts Python et requêtes SQL versionnés, pour que chaque chiffre soit reproductible.</p></div></li>
+        <li><span>3</span><div><h3>Analyse et restitution</h3><p>Rapports Power BI et graphiques publiés ici, accompagnés de leurs limites.</p></div></li>
+      </ol>
+    </section>
+
+    <section id="apropos" class="section alt">
+      <div class="wrap">
+        <h2>À propos</h2>
+        <p>AgricData est un projet personnel de Florian, consacré à l'analyse de données agricoles. Les analyses sont réalisées à partir de sources publiques et citées.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">© 2026 AgricData · Données publiques, analyses personnelles.</div>
+  </footer>
+</body>
+</html>
